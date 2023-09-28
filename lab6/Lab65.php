@@ -10,9 +10,11 @@ class ClaseBase {
     } 
      
     class ClaseHijo extends ClaseBase { 
+
     public function masTests() { 
     echo "ClaseHijo::masTests() llamada\n"; 
-    } 
+
+    }   
     } 
 
     //no puede tener el mismo nombre que la clase padre
